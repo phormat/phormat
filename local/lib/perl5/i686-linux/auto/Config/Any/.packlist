@@ -1,0 +1,8 @@
+/opt/phormat/local/lib/perl5/Config/Any.pm
+/opt/phormat/local/lib/perl5/Config/Any/Base.pm
+/opt/phormat/local/lib/perl5/Config/Any/General.pm
+/opt/phormat/local/lib/perl5/Config/Any/INI.pm
+/opt/phormat/local/lib/perl5/Config/Any/JSON.pm
+/opt/phormat/local/lib/perl5/Config/Any/Perl.pm
+/opt/phormat/local/lib/perl5/Config/Any/XML.pm
+/opt/phormat/local/lib/perl5/Config/Any/YAML.pm

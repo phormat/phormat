@@ -1,0 +1,396 @@
+{
+   "abstract" : "Lightweight yet powerful web application framework",
+   "author" : [
+      "Dancer Core Developers"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4202",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dancer2",
+   "prereqs" : {
+      "build" : {
+         "recommends" : {
+            "CGI::Deurl::XS" : "0",
+            "Crypt::URandom" : "0",
+            "JSON::XS" : "0",
+            "Math::Random::ISAAC::XS" : "0",
+            "Plack::Request" : "0",
+            "Pod::Simple::Search" : "0",
+            "Pod::Simple::SimpleTree" : "0",
+            "Scope::Upper" : "0",
+            "Test::Builder" : "0",
+            "Test::More" : "0",
+            "URL::Encode::XS" : "0"
+         },
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30",
+            "File::ShareDir::Install" : "0.03",
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "App::Cmd::Setup" : "0",
+            "Carp" : "0",
+            "Class::Load" : "0",
+            "Config::Any" : "0",
+            "Cwd" : "0",
+            "Data::Dumper" : "0",
+            "Digest::SHA" : "0",
+            "Encode" : "0",
+            "Exporter" : "5.57",
+            "Fcntl" : "0",
+            "File::Basename" : "0",
+            "File::Copy" : "0",
+            "File::Find" : "0",
+            "File::Path" : "0",
+            "File::ShareDir" : "1.00",
+            "File::Spec" : "0",
+            "File::Spec::Functions" : "0",
+            "File::Temp" : "0.22",
+            "HTTP::Body" : "0",
+            "HTTP::Date" : "0",
+            "HTTP::Headers" : "0",
+            "HTTP::Server::Simple::PSGI" : "0",
+            "Hash::Merge::Simple" : "0",
+            "IO::File" : "0",
+            "JSON" : "0",
+            "LWP::UserAgent" : "0",
+            "List::Util" : "0",
+            "MIME::Base64" : "3.13",
+            "MIME::Types" : "0",
+            "Moo" : "1.003000",
+            "Moo::Role" : "0",
+            "MooX::Types::MooseLike" : "0.16",
+            "MooX::Types::MooseLike::Base" : "0",
+            "POSIX" : "0",
+            "Plack::Request" : "0",
+            "Pod::Simple::Search" : "0",
+            "Pod::Simple::SimpleTree" : "0",
+            "Return::MultiLevel" : "0",
+            "Role::Tiny" : "1.003000",
+            "Scalar::Util" : "0",
+            "Template" : "0",
+            "Template::Tiny" : "0",
+            "Test::Builder" : "0",
+            "Test::More" : "0.92",
+            "URI" : "0",
+            "URI::Escape" : "0",
+            "YAML::Any" : "0",
+            "overload" : "0",
+            "parent" : "0",
+            "perl" : "5.00503",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Capture::Tiny" : "0.12",
+            "ExtUtils::MakeMaker" : "0",
+            "File::Temp" : "0.22",
+            "FindBin" : "0",
+            "HTTP::Body" : "0",
+            "HTTP::Request::Common" : "0",
+            "HTTP::Server::Simple::PSGI" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "LWP::Protocol::PSGI" : "0.06",
+            "Test::Fatal" : "0",
+            "Test::MockTime" : "0",
+            "Test::More" : "0.92",
+            "Test::Script" : "0",
+            "Test::TCP" : "1.13",
+            "YAML" : "0",
+            "YAML::Any" : "0",
+            "lib" : "0",
+            "utf8" : "0",
+            "vars" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Dancer2" : {
+         "file" : "lib/Dancer2.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::CLI" : {
+         "file" : "lib/Dancer2/CLI.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::CLI::Command::gen" : {
+         "file" : "lib/Dancer2/CLI/Command/gen.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::CLI::Command::version" : {
+         "file" : "lib/Dancer2/CLI/Command/version.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Config" : {
+         "file" : "lib/Dancer2/Config.pod",
+         "version" : "0.11"
+      },
+      "Dancer2::Cookbook" : {
+         "file" : "lib/Dancer2/Cookbook.pod",
+         "version" : "0.11"
+      },
+      "Dancer2::Core" : {
+         "file" : "lib/Dancer2/Core.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::App" : {
+         "file" : "lib/Dancer2/Core/App.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Context" : {
+         "file" : "lib/Dancer2/Core/Context.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Cookie" : {
+         "file" : "lib/Dancer2/Core/Cookie.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::DSL" : {
+         "file" : "lib/Dancer2/Core/DSL.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Dispatcher" : {
+         "file" : "lib/Dancer2/Core/Dispatcher.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Error" : {
+         "file" : "lib/Dancer2/Core/Error.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Factory" : {
+         "file" : "lib/Dancer2/Core/Factory.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::HTTP" : {
+         "file" : "lib/Dancer2/Core/HTTP.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Hook" : {
+         "file" : "lib/Dancer2/Core/Hook.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::MIME" : {
+         "file" : "lib/Dancer2/Core/MIME.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Request" : {
+         "file" : "lib/Dancer2/Core/Request.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Request::Upload" : {
+         "file" : "lib/Dancer2/Core/Request/Upload.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Response" : {
+         "file" : "lib/Dancer2/Core/Response.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Config" : {
+         "file" : "lib/Dancer2/Core/Role/Config.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::DSL" : {
+         "file" : "lib/Dancer2/Core/Role/DSL.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Engine" : {
+         "file" : "lib/Dancer2/Core/Role/Engine.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Handler" : {
+         "file" : "lib/Dancer2/Core/Role/Handler.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Headers" : {
+         "file" : "lib/Dancer2/Core/Role/Headers.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Hookable" : {
+         "file" : "lib/Dancer2/Core/Role/Hookable.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Logger" : {
+         "file" : "lib/Dancer2/Core/Role/Logger.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Serializer" : {
+         "file" : "lib/Dancer2/Core/Role/Serializer.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Server" : {
+         "file" : "lib/Dancer2/Core/Role/Server.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::SessionFactory" : {
+         "file" : "lib/Dancer2/Core/Role/SessionFactory.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::SessionFactory::File" : {
+         "file" : "lib/Dancer2/Core/Role/SessionFactory/File.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::StandardResponses" : {
+         "file" : "lib/Dancer2/Core/Role/StandardResponses.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Role::Template" : {
+         "file" : "lib/Dancer2/Core/Role/Template.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Route" : {
+         "file" : "lib/Dancer2/Core/Route.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Runner" : {
+         "file" : "lib/Dancer2/Core/Runner.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Server::PSGI" : {
+         "file" : "lib/Dancer2/Core/Server/PSGI.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Server::Standalone" : {
+         "file" : "lib/Dancer2/Core/Server/Standalone.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Session" : {
+         "file" : "lib/Dancer2/Core/Session.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Time" : {
+         "file" : "lib/Dancer2/Core/Time.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Core::Types" : {
+         "file" : "lib/Dancer2/Core/Types.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::FileUtils" : {
+         "file" : "lib/Dancer2/FileUtils.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Handler::AutoPage" : {
+         "file" : "lib/Dancer2/Handler/AutoPage.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Handler::File" : {
+         "file" : "lib/Dancer2/Handler/File.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Capture" : {
+         "file" : "lib/Dancer2/Logger/Capture.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Capture::Trap" : {
+         "file" : "lib/Dancer2/Logger/Capture/Trap.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Console" : {
+         "file" : "lib/Dancer2/Logger/Console.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Diag" : {
+         "file" : "lib/Dancer2/Logger/Diag.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::File" : {
+         "file" : "lib/Dancer2/Logger/File.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Note" : {
+         "file" : "lib/Dancer2/Logger/Note.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Logger::Null" : {
+         "file" : "lib/Dancer2/Logger/Null.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Manual" : {
+         "file" : "lib/Dancer2/Manual.pod",
+         "version" : "0.11"
+      },
+      "Dancer2::Plugin" : {
+         "file" : "lib/Dancer2/Plugin.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Plugin::Ajax" : {
+         "file" : "lib/Dancer2/Plugin/Ajax.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Plugins" : {
+         "file" : "lib/Dancer2/Plugins.pod",
+         "version" : "0.11"
+      },
+      "Dancer2::Serializer::Dumper" : {
+         "file" : "lib/Dancer2/Serializer/Dumper.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Serializer::JSON" : {
+         "file" : "lib/Dancer2/Serializer/JSON.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Serializer::YAML" : {
+         "file" : "lib/Dancer2/Serializer/YAML.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Session::Simple" : {
+         "file" : "lib/Dancer2/Session/Simple.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Session::YAML" : {
+         "file" : "lib/Dancer2/Session/YAML.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Template::Implementation::ForkedTiny" : {
+         "file" : "lib/Dancer2/Template/Implementation/ForkedTiny.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Template::Simple" : {
+         "file" : "lib/Dancer2/Template/Simple.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Template::TemplateToolkit" : {
+         "file" : "lib/Dancer2/Template/TemplateToolkit.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Template::Tiny" : {
+         "file" : "lib/Dancer2/Template/Tiny.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Test" : {
+         "file" : "lib/Dancer2/Test.pm",
+         "version" : "0.11"
+      },
+      "Dancer2::Tutorial" : {
+         "file" : "lib/Dancer2/Tutorial.pod",
+         "version" : "0.11"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/PerlDancer/Dancer2/issues"
+      },
+      "homepage" : "http://perldancer.org/",
+      "repository" : {
+         "url" : "https://github.com/PerlDancer/Dancer2"
+      }
+   },
+   "version" : "0.11"
+}

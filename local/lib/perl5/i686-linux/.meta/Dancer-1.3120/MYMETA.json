@@ -1,0 +1,60 @@
+{
+   "abstract" : "A minimal-effort oriented web application framework",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.120921, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dancer",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0.94"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Encode" : "0",
+            "File::Basename" : "0",
+            "File::Spec" : "0",
+            "HTTP::Body" : "1.07",
+            "HTTP::Server::Simple::PSGI" : "0.11",
+            "LWP" : "0",
+            "MIME::Types" : "0",
+            "Module::Runtime" : "0",
+            "Time::HiRes" : "0",
+            "Try::Tiny" : "0.09",
+            "URI" : "1.59"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/PerlDancer/Dancer/issues"
+      },
+      "homepage" : "http://perldancer.org/",
+      "repository" : {
+         "url" : "https://github.com/PerlDancer/Dancer"
+      }
+   },
+   "version" : "1.3120"
+}

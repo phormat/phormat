@@ -1,0 +1,3 @@
+[% FOREACH id IN chains %]
+    [% id.name %],
+[% END %]
