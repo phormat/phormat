@@ -219,6 +219,18 @@ DISTRIBUTIONS
       Module::Pluggable 3.01
       Test::More 0
       perl 5.006
+  Cookie-Baker-0.02
+    pathname: K/KA/KAZEBURO/Cookie-Baker-0.02.tar.gz
+    provides:
+      Cookie::Baker 0.02
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Exporter 0
+      ExtUtils::CBuilder 0
+      Module::Build 0.38
+      URI::Escape 0
+      perl 5.008005
   DBD-SQLite-1.40
     pathname: I/IS/ISHIGAKI/DBD-SQLite-1.40.tar.gz
     provides:
@@ -631,6 +643,25 @@ DISTRIBUTIONS
       Filter::Util::Call 0
       Test::More 0
       perl 5.008001
+  Digest-HMAC-1.03
+    pathname: G/GA/GAAS/Digest-HMAC-1.03.tar.gz
+    provides:
+      Digest::HMAC 1.03
+      Digest::HMAC_MD5 1.01
+      Digest::HMAC_SHA1 1.03
+    requirements:
+      Digest::MD5 2
+      Digest::SHA 1
+      ExtUtils::MakeMaker 0
+      perl 5.004
+  Digest-SHA1-2.13
+    pathname: G/GA/GAAS/Digest-SHA1-2.13.tar.gz
+    provides:
+      Digest::SHA1 2.13
+    requirements:
+      Digest::base 1.00
+      ExtUtils::MakeMaker 0
+      perl 5.004
   Dist-CheckConflicts-0.10
     pathname: D/DO/DOY/Dist-CheckConflicts-0.10.tar.gz
     provides:
@@ -1442,6 +1473,25 @@ DISTRIBUTIONS
       Text::MicroTemplate 0.15
       parent 0
       perl 5.008001
+  Plack-Middleware-Session-0.21
+    pathname: M/MI/MIYAGAWA/Plack-Middleware-Session-0.21.tar.gz
+    provides:
+      Plack::Middleware::Session 0.21
+      Plack::Middleware::Session::Cookie undef
+      Plack::Session 0.21
+      Plack::Session::State 0.21
+      Plack::Session::State::Cookie 0.21
+      Plack::Session::Store 0.21
+      Plack::Session::Store::Cache 0.21
+      Plack::Session::Store::DBI 0.10
+      Plack::Session::Store::File 0.21
+      Plack::Session::Store::Null 0.21
+    requirements:
+      Cookie::Baker 0
+      Digest::HMAC_SHA1 1.03
+      Digest::SHA1 0
+      Module::Build::Tiny 0.030
+      Plack 0.9910
   Return-MultiLevel-0.03
     pathname: M/MA/MAUKE/Return-MultiLevel-0.03.tar.gz
     provides:
